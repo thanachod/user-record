@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+form {
+  display: flex;
+  justify-content: center;
+  background-color: #61dafb;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+
+
+}
+.flex-btn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.flex-btn > button{
+  width: 80px;
+  margin-top: 10px;
+}
